@@ -1,10 +1,11 @@
-# Discord.js Template
+# [Discord.JS](https://discord.js.org/docs) Bot Template
 
 A modular, typescript template for Discord.js bots
 
 ## Requirements
 
 - [Bun](https://bun.sh) runtime.
+- Discord Token. [[Guide](https://discordjs.guide/legacy/preparations/app-setup)]
 
 ## Setup
 
