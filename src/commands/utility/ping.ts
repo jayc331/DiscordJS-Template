@@ -6,6 +6,8 @@ export default class PingCommand extends BaseCommand {
 		.setName("ping")
 		.setDescription("Replies with Pong!");
 
+	override cooldown = 3
+
 	async execute(interaction: ChatInputCommandInteraction) {
 		await interaction.reply("Pong!");
 	}
